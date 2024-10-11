@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-image: url(image/Ciudad.jpg);
+    background-size: 100% 100%; 
+    background-attachment: fixed; 
+    color: black; 
+}
+input[type=button]{
+    text-align: center;
+    background-color: rgb(66, 106, 218);
+    color: white;
+    height: 4vmax;
+    width: 7vmax;
+    margin: 2.5vmax;
+    font-weight: bold;
+    border-radius: 0.5vmax;
+}
+h1{
+    color: black; 
+    margin: 3vmax;
+    font: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=number]{
+    height: 2vmax;
+    width: 4vmax;
+    margin: 1vmax 0;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 0.5vmax;
+}
+section{
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    border-radius: 0.5vmax;
+}
+hr{
+    width: 80vw;
+    margin: auto;
+}
+#resultado{
+    margin: 3vmax;
+}
