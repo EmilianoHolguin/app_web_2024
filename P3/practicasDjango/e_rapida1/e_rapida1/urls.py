@@ -1,5 +1,5 @@
 """
-URL configuration for e_rapida1 project.
+URL configuration for proyectoUTD project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -20,9 +20,9 @@ from mainapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('inicio/', views.index, name='inicio'),
     path('', views.index, name='inicio'),
-    path('inicio/', views.index, name='index'),
-    path('about/', views.about, name='acercade'),
+    path('acercade/', views.about, name='acercade'),
     path('mision/', views.mision, name='mision'),
-    path('vision/', views.vision, name='vision')
+    path('vision/', views.vision, name='vision'),
 ]
