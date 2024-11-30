@@ -1,0 +1,91 @@
+/* Estilos generales para el formulario */
+form {
+    max-width: 450px; /* Ancho ligeramente mayor */
+    margin: 20px auto; /* Separación superior */
+    padding: 25px; /* Más espacio interno */
+    background-color: #ffffff; /* Fondo blanco para mejor contraste */
+    border-radius: 12px; /* Bordes más redondeados */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra más destacada */
+    font-family: 'Arial', sans-serif; /* Fuente más legible */
+}
+
+/* Alineación de la tabla */
+table {
+    width: 100%;
+    border-spacing: 12px; /* Espaciado más amplio */
+}
+
+/* Estilo para las celdas */
+td {
+    padding: 10px; /* Más espacio interno */
+    vertical-align: top; /* Alineación superior */
+}
+
+/* Estilo para las etiquetas */
+label {
+    font-weight: 600; /* Negrita más pronunciada */
+    font-size: 1.2em; /* Tamaño ligeramente mayor */
+    color: #444; /* Color más suave */
+    display: block; /* Etiquetas alineadas encima del input */
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+/* Estilo para los inputs */
+input[type="text"], input[type="password"], input[type="submit"], input[type="reset"] {
+    width: 100%;
+    padding: 12px; /* Más espacio interno */
+    margin: 8px 0; /* Más separación entre inputs */
+    border-radius: 8px; /* Bordes más redondeados */
+    border: 1px solid #bbb; /* Bordes más suaves */
+    font-size: 1em;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra interna para realce */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
+
+/* Estilo para el input de tipo submit */
+input[type="submit"] {
+    background-color: #28a745; /* Verde moderno */
+    color: white;
+    cursor: pointer;
+    border: none; /* Sin borde */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Efecto suave */
+}
+
+/* Estilo para el input de tipo reset */
+input[type="reset"] {
+    background-color: #dc3545; /* Rojo moderno */
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Efecto suave */
+}
+
+/* Efecto hover para los botones */
+input[type="submit"]:hover {
+    background-color: #218838; /* Verde más oscuro */
+}
+
+input[type="reset"]:hover {
+    background-color: #c82333; /* Rojo más oscuro */
+}
+
+/* Estilo para los inputs cuando son autofocalizados */
+input:focus {
+    border-color: #007bff; /* Azul moderno */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra azul suave */
+    outline: none; /* Sin borde externo */
+}
+
+/* Estilo adicional para el formulario */
+form hr {
+    margin: 20px 0;
+    border: 1px solid #ddd; /* Línea de separación tenue */
+}
+
+form p {
+    font-size: 0.9em; /* Texto de soporte más pequeño */
+    color: #666; /* Color gris tenue */
+    text-align: center;
+}

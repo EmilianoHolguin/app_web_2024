@@ -1,0 +1,71 @@
+/* Estilos generales para la sección de contenido */
+#content {
+    max-width: 1200px; /* Incremento del ancho máximo */
+    margin: 30px auto; /* Más separación en los márgenes */
+    padding: 25px; /* Más espacio interno */
+    background-color: #ffffff; /* Fondo blanco para mayor contraste */
+    border-radius: 12px; /* Bordes más redondeados */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra más destacada */
+}
+
+/* Estilo para el título dentro de la caja */
+#content .box h1 {
+    font-size: 2.2em; /* Título ligeramente más grande */
+    color: #444; /* Color más suave */
+    text-align: center;
+    margin-bottom: 25px; /* Más separación debajo */
+    font-family: 'Arial', sans-serif; /* Fuente legible */
+}
+
+/* Estilo para la tabla */
+#content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px; /* Más separación desde el contenido superior */
+    font-family: 'Verdana', sans-serif; /* Fuente compacta y legible */
+    font-size: 0.95em; /* Tamaño de texto mejorado */
+}
+
+#content table th, #content table td {
+    padding: 15px; /* Celdas más espaciosas */
+    text-align: left; /* Alineación a la izquierda */
+    border: 1px solid #ccc; /* Bordes más suaves */
+}
+
+/* Estilo para las celdas de los encabezados */
+#content table th {
+    background-color: #4a4e69; /* Color púrpura oscuro */
+    color: #fff; /* Texto blanco */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-weight: bold; /* Negrita para destacar */
+}
+
+/* Estilo para las filas de la tabla */
+#content table tr:nth-child(even) {
+    background-color: #f8f9fa; /* Color gris claro */
+}
+
+#content table tr:hover {
+    background-color: #e9ecef; /* Cambio más claro al pasar el cursor */
+}
+
+/* Estilo para la línea horizontal */
+#content hr {
+    margin-top: 25px;
+    border: 1px solid #bbb; /* Color más tenue */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #282c34; /* Fondo más oscuro */
+    color: #bbb; /* Texto gris claro */
+    padding: 15px 0; /* Más espacio en el pie */
+    margin-top: 30px; /* Mayor separación desde el contenido */
+    font-family: 'Georgia', serif; /* Fuente elegante */
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em; /* Tamaño reducido */
+}
