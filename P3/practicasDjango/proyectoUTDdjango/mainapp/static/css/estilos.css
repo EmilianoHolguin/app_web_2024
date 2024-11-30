@@ -1,10 +1,17 @@
 /* Aplicar estilos */
-
 *{
    margin: 0px;
    padding: 0px;
    font-family: sans-serif;
    text-decoration: none;
+}
+
+.backhome{
+   color: rgb(15, 197, 15);
+}
+
+.backhome:hover{
+   color: darkgreen;
 }
 
 p,h1,h2{
@@ -254,6 +261,7 @@ nav > ul > li:hover > ul li:hover a{
    margin-bottom: 10px;
    margin-top: 5px;
 }
+
 
 /* Estilos al Footer */
 
